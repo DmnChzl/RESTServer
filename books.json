@@ -1,0 +1,328 @@
+[
+  {
+    "isbn": "9782505008262",
+    "title": "Bakuman",
+    "subTitle": "",
+    "volume": 1,
+    "date": "02/07/2010",
+    "authors": [
+      {
+        "firstName": "Tsugumi",
+        "lastName": "Ohba"
+      },
+      {
+        "firstName": "Takeshi",
+        "lastName": "Obata"
+      }
+    ],
+    "publisher": "Kana",
+    "category": "Shonen",
+    "chapters": [
+      "Rêve Et Réalité",
+      "Idiots Et Intelligents",
+      "Plumes Et Nemus",
+      "Parents Et Enfants",
+      "Temps Et Clé",
+      "Tout Et Rien",
+      "Sourire Et Rougissement"
+    ],
+    "pages": 192,
+    "price": 6.85
+  },
+  {
+    "isbn": "9782505000327",
+    "title": "Death Note",
+    "subTitle": "",
+    "volume": 1,
+    "date": "19/01/2007",
+    "authors": [
+      {
+        "firstName": "Tsugumi",
+        "lastName": "Ohba"
+      },
+      {
+        "firstName": "Takeshi",
+        "lastName": "Obata"
+      }
+    ],
+    "publisher": "Kana",
+    "category": "Dark Shonen",
+    "chapters": ["Ennui", "L", "Famille", "Courant Électrique", "Globe Oculaire", "Manipulation", "Cible"],
+    "pages": 192,
+    "price": 6.85
+  },
+  {
+    "isbn": "9782505071488",
+    "title": "Dog End",
+    "subTitle": "",
+    "volume": 1,
+    "date": "05/10/2018",
+    "authors": [
+      {
+        "firstName": "",
+        "lastName": "Yurikawa"
+      }
+    ],
+    "publisher": "Kana",
+    "category": "Dark Shonen",
+    "chapters": [
+      "Black Dog, l'Assassin",
+      "La Bâte En Cage",
+      "Le Fou De La Grimpe",
+      "Le Démon Blanc",
+      "Combat De Chien",
+      "Kuro",
+      "Mana",
+      "L'Assaut",
+      "Alerte Au Gaz"
+    ],
+    "pages": 192,
+    "price": 7.45
+  },
+  {
+    "isbn": "9782845995581",
+    "title": "DreamLand",
+    "subTitle": "Feu !",
+    "volume": 1,
+    "date": "25/01/2006",
+    "authors": [
+      {
+        "firstName": "Reno",
+        "lastName": "Lemaire"
+      }
+    ],
+    "publisher": "Pika",
+    "category": "Shonen",
+    "chapters": ["Feu !", "Coefficient 4", "Protéger Les Rêves Des Gens", "Savane", "DreamLand", "Une Nouvelle Page Blanche", "Le Royaume Obscur"],
+    "pages": 216,
+    "price": 6.95
+  },
+  {
+    "isbn": "9782845999145",
+    "title": "Fairy Tail",
+    "subTitle": "",
+    "volume": 1,
+    "date": "10/09/2008",
+    "authors": [
+      {
+        "firstName": "Hiro",
+        "lastName": "Mashima"
+      }
+    ],
+    "publisher": "Pika",
+    "category": "Shonen",
+    "chapters": ["Fairy Tail", "Voilà Le Maître !", "Le Dragon Feu, Le Singe Et La Vache", "L'Esprit De La Constellation Du Chiot"],
+    "pages": 192,
+    "price": 6.95
+  },
+  {
+    "isbn": "9782351420171",
+    "title": "FullMetal Alchemist",
+    "subTitle": "",
+    "volume": 1,
+    "date": "08/09/2005",
+    "authors": [
+      {
+        "firstName": "Hiromu",
+        "lastName": "Arakawa"
+      }
+    ],
+    "publisher": "Kurokawa",
+    "category": "Shonen",
+    "chapters": ["Les Deux Alchimistes", "La Valeur De La Vie", "La Ville Houillère", "Du Grabuge Sur Le Wagon"],
+    "pages": 192,
+    "price": 6.6
+  },
+  {
+    "isbn": "9782845991002",
+    "title": "GTO",
+    "subTitle": "",
+    "volume": 1,
+    "date": "20/02/2001",
+    "authors": [
+      {
+        "firstName": "Toru",
+        "lastName": "Fujisawa"
+      }
+    ],
+    "publisher": "Pika",
+    "category": "Shonen",
+    "chapters": ["La Révélation d'Onizuka", "La Voie De l'Enseignement", "Teacher Banzaï", "Le Bonheur Est Dans l'Appart", "Devenir Un Loup Enragé"],
+    "pages": 192,
+    "price": 6.95
+  },
+  {
+    "isbn": "9782505070733",
+    "title": "Moriarty",
+    "subTitle": "",
+    "volume": 1,
+    "date": "22/06/2018",
+    "authors": [
+      {
+        "firstName": "Ryosuke",
+        "lastName": "Takeuchi"
+      },
+      {
+        "firstName": "Hikaru",
+        "lastName": "Miyoshi"
+      }
+    ],
+    "publisher": "Kana",
+    "category": "Dark Shonen",
+    "chapters": ["Les Yeux Écarlates", "Une Tarte Aux Pamplemousses", "Les Danseurs Sur Le Pont"],
+    "pages": 212,
+    "price": 6.85
+  },
+  {
+    "isbn": "9782871294146",
+    "title": "Naruto",
+    "subTitle": "",
+    "volume": 1,
+    "date": "09/03/2002",
+    "authors": [
+      {
+        "firstName": "Masashi",
+        "lastName": "Kishimoto"
+      }
+    ],
+    "publisher": "Kana",
+    "category": "Shonen",
+    "chapters": [
+      "Naruto Uzumaki !",
+      "Konoha-Maru !",
+      "Sasuke Uchiwa !",
+      "Kakashi Hatake !",
+      "L'Inattention Est La Pire Ennemie !",
+      "Non ! Pas Sasuke !",
+      "La Conclusion De Kakashi"
+    ],
+    "pages": 190,
+    "price": 6.85
+  },
+  {
+    "isbn": "9782723433358",
+    "title": "One Piece",
+    "subTitle": "À l'Aube d'Une Grande Aventure",
+    "volume": 1,
+    "date": "20/09/2000",
+    "authors": [
+      {
+        "firstName": "Eiichiro",
+        "lastName": "Oda"
+      }
+    ],
+    "publisher": "Glénat",
+    "category": "Shonen",
+    "chapters": [
+      "À l'Aube d'Une Grande Aventure",
+      "Luffy, Le Garçon Au Chapeau De Paille",
+      "Zorro, Le Chasseur De Pirates",
+      "Morgan Le Bûcheron, Colonel De La Marine",
+      "Le Seigneur Des Pirates Et Le Plus Grand Manieur De Sabres",
+      "La Première Recrue",
+      "Vive l'Amitié !",
+      "Nami Entre En Scène"
+    ],
+    "pages": 192,
+    "price": 6.9
+  },
+  {
+    "isbn": "9782871293545",
+    "title": "Samourai Deeper Kyo",
+    "subTitle": "",
+    "volume": 1,
+    "date": "14/04/2001",
+    "authors": [
+      {
+        "firstName": "Akimine",
+        "lastName": "Kamijyo"
+      }
+    ],
+    "publisher": "Kana",
+    "category": "Dark Shonen",
+    "chapters": [],
+    "pages": 190,
+    "price": 6.85
+  },
+  {
+    "isbn": "9782811613563",
+    "title": "Seven Deadly Sins",
+    "subTitle": "",
+    "volume": 1,
+    "date": "19/03/2014",
+    "authors": [
+      {
+        "firstName": "Nakaba",
+        "lastName": "Suzuki"
+      }
+    ],
+    "publisher": "Pika",
+    "category": "Shonen",
+    "chapters": ["Les Seven Deadly Sins", "L'Épée Du Chevalier Sacré", "Ce Que J'ai À Faire", "Le Péché Au Bois Dormant", "Sombres Souvenir"],
+    "pages": 184,
+    "price": 6.95
+  },
+  {
+    "isbn": "9782871292777",
+    "title": "Shaman King",
+    "subTitle": "",
+    "volume": 1,
+    "date": "16/03/2000",
+    "authors": [
+      {
+        "firstName": "Hiroyuki",
+        "lastName": "Takei"
+      }
+    ],
+    "publisher": "Kana",
+    "category": "Shonen",
+    "chapters": [
+      "Le Garçon Qui Danse Avec Les Fantômes",
+      "Le Samouraï Qui Attend",
+      "Le Panneau Inachevé",
+      "La Boite d'Âme",
+      "Le Garde Du Corps Samouraï",
+      "Un Autre Chamane",
+      "Chamane Vs Chamane",
+      "Acceptation À 100%"
+    ],
+    "pages": 190,
+    "price": 6.85
+  },
+  {
+    "isbn": "9782351420553",
+    "title": "Soul Eater",
+    "subTitle": "",
+    "volume": 1,
+    "date": "12/03/2009",
+    "authors": [
+      {
+        "firstName": "Atsushi",
+        "lastName": "Ohkubo"
+      }
+    ],
+    "publisher": "Kurokawa",
+    "category": "Shonen",
+    "chapters": ["Soul Eater", "Black Star", "Death The Kid", "Cours De Rattrapage (1re Partie)", "Cours De Rattrapage (2nd Partie)"],
+    "pages": 192,
+    "price": 6.6
+  },
+  {
+    "isbn": "9782355920561",
+    "title": "Tales Of Symphonia",
+    "subTitle": "",
+    "volume": 1,
+    "date": "12/03/2009",
+    "authors": [
+      {
+        "firstName": "Hitoshi",
+        "lastName": "Ichimura"
+      }
+    ],
+    "publisher": "Ki-Oon",
+    "category": "Dark Shonen",
+    "chapters": [],
+    "pages": 208,
+    "price": 7.65
+  }
+]
