@@ -1,8 +1,8 @@
 # REST Server
 
-## Intro
+## Explanation
 
-This is a RESTful BookStore API made with **Go**.
+This is an example of REST API made with **Go** based on _book store_ idea.
 
 ### Mandatory
 

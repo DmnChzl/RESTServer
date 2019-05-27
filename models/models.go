@@ -20,3 +20,7 @@ type Author struct {
 	FirstName string `json:"firstName" bson:"firstName"`
 	LastName  string `json:"lastName" bson:"lastName"`
 }
+
+type Status struct {
+	Result string `json:"result"`
+}

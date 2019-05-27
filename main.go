@@ -27,6 +27,6 @@ func main() {
 	api.HandleFunc("/book/{id}", controllers.ModifyBook).Methods("PUT")
 	api.HandleFunc("/books", controllers.RemoveAllBooks).Methods("DELETE")
 	api.HandleFunc("/book/{id}", controllers.RemoveBook).Methods("DELETE")
-	fmt.Println("Starting Server On Port " + PORT + "...")
+	fmt.Println("Server Is Listening On Port " + PORT + "...")
 	log.Fatal(http.ListenAndServe(":"+PORT, router))
 }

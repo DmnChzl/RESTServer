@@ -36,16 +36,19 @@ func ModifyBook(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	var book interface{}
 	_ = json.NewDecoder(r.Body).Decode(&book)
-	dao.UpdateBook(book, params["id"])
+	payload := dao.UpdateBook(book, params["id"])
+	json.NewEncoder(w).Encode(payload)
 }
 
 // RemoveAllBooks : Remove All Books (EndPoint)
 func RemoveAllBooks(w http.ResponseWriter, r *http.Request) {
-	dao.DeleteAllBooks()
+	payload := dao.DeleteAllBooks()
+	json.NewEncoder(w).Encode(payload)
 }
 
 // RemoveBook : Remove Existing Book (EndPoint)
 func RemoveBook(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
-	dao.DeleteBook(params["id"])
+	payload := dao.DeleteBook(params["id"])
+	json.NewEncoder(w).Encode(payload)
 }

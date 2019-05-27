@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"strconv"
 
 	"github.com/mrdoomy/restserver/models"
 
@@ -102,8 +103,8 @@ func ReadBook(isbn string) (result models.Book) {
 }
 
 // UpdateBook : Update Existing Book From DataBase With 'object' (CRUD)
-func UpdateBook(book interface{}, isbn string) {
-	result, err := collection.UpdateOne(
+func UpdateBook(book interface{}, isbn string) (status models.Status) {
+	_, err := collection.UpdateOne(
 		context.Background(),
 		bson.D{
 			{Key: "isbn", Value: isbn},
@@ -112,24 +113,28 @@ func UpdateBook(book interface{}, isbn string) {
 			{Key: "$set", Value: book},
 		})
 	if err != nil {
-		fmt.Println("[UpdateBook]: Failed To UpdateOne()")
-		log.Fatal(err)
+		status.Result = "Failed To UpdateOne..."
+		// log.Fatal(err)
+	} else {
+		status.Result = isbn + " Updated."
 	}
-	fmt.Printf("Book Updated : %v", result.ModifiedCount)
+	return
 }
 
 // DeleteAllBooks : Delete All Books From DataBase (CRUD)
-func DeleteAllBooks() {
-	result, err := collection.DeleteMany(context.Background(), bson.D{})
+func DeleteAllBooks() (status models.Status) {
+	res, err := collection.DeleteMany(context.Background(), bson.D{})
 	if err != nil {
-		fmt.Println("[DeleteAllBooks]: Failed To DeleteMany()")
-		log.Fatal(err)
+		status.Result = "Failed To DeleteMany..."
+		// log.Fatal(err)
+	} else {
+		status.Result = strconv.FormatInt(res.DeletedCount, 10) + " Deleted."
 	}
-	fmt.Printf("Book Deleted : %v", result.DeletedCount)
+	return
 }
 
 // DeleteBook : Delete Existing Book From DataBase With 'isbn' (CRUD)
-func DeleteBook(isbn string) {
+func DeleteBook(isbn string) (status models.Status) {
 	_, err := collection.DeleteOne(
 		context.Background(),
 		bson.D{
@@ -137,8 +142,10 @@ func DeleteBook(isbn string) {
 		},
 		nil)
 	if err != nil {
-		fmt.Println("[DeleteBook]: Failed To DeleteOne()")
+		status.Result = "Failed To DeleteOne..."
 		// log.Fatal(err)
+	} else {
+		status.Result = isbn + " Deleted."
 	}
-	fmt.Println("Book Deleted")
+	return
 }
