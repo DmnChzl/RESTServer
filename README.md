@@ -15,20 +15,20 @@ mongo --dbpath db
 
 ## Process
 
-Repository :
+Repository:
 
 ```
 git clone https://github.com/mrdoomy/restserver.git
 ```
 
-Dependencies :
+Dependencies:
 
 ```
 go get -v github.com/gorilla/mux
 go get -v go.mongodb.org/mongo-driver/mongo
 ```
 
-Build :
+Build:
 
 ```
 go build main.go
