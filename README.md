@@ -18,7 +18,7 @@ mongo --dbpath db
 Repository:
 
 ```
-git clone https://github.com/mrdoomy/restserver.git
+git clone https://github.com/dmnchzl/restserver.git
 ```
 
 Dependencies:

@@ -6,7 +6,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/mrdoomy/restserver/models"
+	"github.com/dmnchzl/restserver/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

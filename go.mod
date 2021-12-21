@@ -1,4 +1,4 @@
-module github.com/mrdoomy/restserver
+module github.com/dmnchzl/restserver
 
 go 1.12
 

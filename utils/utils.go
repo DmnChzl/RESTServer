@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/mrdoomy/restserver/dao"
-	"github.com/mrdoomy/restserver/models"
+	"github.com/dmnchzl/restserver/dao"
+	"github.com/dmnchzl/restserver/models"
 )
 
 // LoadFile : Populates DataBase With Some Data (Optional)

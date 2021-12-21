@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/mrdoomy/restserver/controllers"
-	"github.com/mrdoomy/restserver/utils"
+	"github.com/dmnchzl/restserver/controllers"
+	"github.com/dmnchzl/restserver/utils"
 
 	"github.com/gorilla/mux"
 )

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/mrdoomy/restserver/dao"
-	"github.com/mrdoomy/restserver/models"
+	"github.com/dmnchzl/restserver/dao"
+	"github.com/dmnchzl/restserver/models"
 
 	"github.com/gorilla/mux"
 )
